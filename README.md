@@ -1,2 +1,2 @@
 # puzzle-container
-Dependency container for Puzzle project
+PSR-11 Dependency container for Puzzle project
