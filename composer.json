@@ -1,0 +1,19 @@
+{
+    "name": "ailixter/puzzle-container",
+    "description": "Description of project Puzzle.Container.",
+    "authors": [
+        {
+            "name": "ailixter",
+            "email": "ailixter@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ailixter\\Puzzle\\": "src/",
+            "Ailixter\\Puzzle\\Example\\":     "example/"
+        }
+    },
+    "require": {
+        "psr/container": "^1.0"
+    }
+}
