@@ -27,7 +27,7 @@ class Container implements ContainerInterface
             // allow additional arguments for Container::get
             $args = \func_get_args();
             $args[0] = $this;
-            return \call_user_func_array($item, $args);
+            return $item(...$args);
         }
         return $item;
     }
