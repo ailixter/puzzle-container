@@ -1,6 +1,7 @@
 {
     "name": "ailixter/puzzle-container",
-    "description": "Description of project Puzzle.Container.",
+    "description": "Very simple dependency container for Puzzle project.",
+    "license": "MIT",
     "authors": [
         {
             "name": "ailixter",
